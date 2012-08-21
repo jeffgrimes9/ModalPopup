@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC37CC6D15E41340007D7C29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC37CC6C15E41340007D7C29 /* UIKit.framework */; };
+		EC37CC6F15E41340007D7C29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC37CC6E15E41340007D7C29 /* Foundation.framework */; };
+		EC37CC7115E41340007D7C29 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC37CC7015E41340007D7C29 /* CoreGraphics.framework */; };
+		EC37CC7715E41341007D7C29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC37CC7515E41341007D7C29 /* InfoPlist.strings */; };
+		EC37CC7915E41341007D7C29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37CC7815E41341007D7C29 /* main.m */; };
+		EC37CC7D15E41341007D7C29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37CC7C15E41341007D7C29 /* AppDelegate.m */; };
+		EC37CC8015E41341007D7C29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37CC7F15E41341007D7C29 /* ViewController.m */; };
+		EC37CC8315E41341007D7C29 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC37CC8115E41341007D7C29 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC37CC6815E41340007D7C29 /* ModalPopup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModalPopup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC37CC6C15E41340007D7C29 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC37CC6E15E41340007D7C29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC37CC7015E41340007D7C29 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC37CC7415E41341007D7C29 /* ModalPopup-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModalPopup-Info.plist"; sourceTree = "<group>"; };
+		EC37CC7615E41341007D7C29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC37CC7815E41341007D7C29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC37CC7A15E41341007D7C29 /* ModalPopup-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ModalPopup-Prefix.pch"; sourceTree = "<group>"; };
+		EC37CC7B15E41341007D7C29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC37CC7C15E41341007D7C29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC37CC7E15E41341007D7C29 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC37CC7F15E41341007D7C29 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC37CC8215E41341007D7C29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC37CC6515E41340007D7C29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC37CC6D15E41340007D7C29 /* UIKit.framework in Frameworks */,
+				EC37CC6F15E41340007D7C29 /* Foundation.framework in Frameworks */,
+				EC37CC7115E41340007D7C29 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC37CC5D15E41340007D7C29 = {
+			isa = PBXGroup;
+			children = (
+				EC37CC7215E41340007D7C29 /* ModalPopup */,
+				EC37CC6B15E41340007D7C29 /* Frameworks */,
+				EC37CC6915E41340007D7C29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC37CC6915E41340007D7C29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC37CC6815E41340007D7C29 /* ModalPopup.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC37CC6B15E41340007D7C29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC37CC6C15E41340007D7C29 /* UIKit.framework */,
+				EC37CC6E15E41340007D7C29 /* Foundation.framework */,
+				EC37CC7015E41340007D7C29 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC37CC7215E41340007D7C29 /* ModalPopup */ = {
+			isa = PBXGroup;
+			children = (
+				EC37CC7B15E41341007D7C29 /* AppDelegate.h */,
+				EC37CC7C15E41341007D7C29 /* AppDelegate.m */,
+				EC37CC7E15E41341007D7C29 /* ViewController.h */,
+				EC37CC7F15E41341007D7C29 /* ViewController.m */,
+				EC37CC8115E41341007D7C29 /* ViewController.xib */,
+				EC37CC7315E41341007D7C29 /* Supporting Files */,
+			);
+			path = ModalPopup;
+			sourceTree = "<group>";
+		};
+		EC37CC7315E41341007D7C29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC37CC7415E41341007D7C29 /* ModalPopup-Info.plist */,
+				EC37CC7515E41341007D7C29 /* InfoPlist.strings */,
+				EC37CC7815E41341007D7C29 /* main.m */,
+				EC37CC7A15E41341007D7C29 /* ModalPopup-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC37CC6715E41340007D7C29 /* ModalPopup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC37CC8615E41341007D7C29 /* Build configuration list for PBXNativeTarget "ModalPopup" */;
+			buildPhases = (
+				EC37CC6415E41340007D7C29 /* Sources */,
+				EC37CC6515E41340007D7C29 /* Frameworks */,
+				EC37CC6615E41340007D7C29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModalPopup;
+			productName = ModalPopup;
+			productReference = EC37CC6815E41340007D7C29 /* ModalPopup.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC37CC5F15E41340007D7C29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jeff Grimes";
+			};
+			buildConfigurationList = EC37CC6215E41340007D7C29 /* Build configuration list for PBXProject "ModalPopup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC37CC5D15E41340007D7C29;
+			productRefGroup = EC37CC6915E41340007D7C29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC37CC6715E41340007D7C29 /* ModalPopup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC37CC6615E41340007D7C29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC37CC7715E41341007D7C29 /* InfoPlist.strings in Resources */,
+				EC37CC8315E41341007D7C29 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC37CC6415E41340007D7C29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC37CC7915E41341007D7C29 /* main.m in Sources */,
+				EC37CC7D15E41341007D7C29 /* AppDelegate.m in Sources */,
+				EC37CC8015E41341007D7C29 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC37CC7515E41341007D7C29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC37CC7615E41341007D7C29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC37CC8115E41341007D7C29 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC37CC8215E41341007D7C29 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC37CC8415E41341007D7C29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC37CC8515E41341007D7C29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC37CC8715E41341007D7C29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalPopup/ModalPopup-Prefix.pch";
+				INFOPLIST_FILE = "ModalPopup/ModalPopup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC37CC8815E41341007D7C29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalPopup/ModalPopup-Prefix.pch";
+				INFOPLIST_FILE = "ModalPopup/ModalPopup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC37CC6215E41340007D7C29 /* Build configuration list for PBXProject "ModalPopup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC37CC8415E41341007D7C29 /* Debug */,
+				EC37CC8515E41341007D7C29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC37CC8615E41341007D7C29 /* Build configuration list for PBXNativeTarget "ModalPopup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC37CC8715E41341007D7C29 /* Debug */,
+				EC37CC8815E41341007D7C29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC37CC5F15E41340007D7C29 /* Project object */;
+}
