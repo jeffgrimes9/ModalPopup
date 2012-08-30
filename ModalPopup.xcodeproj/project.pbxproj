@@ -15,6 +15,12 @@
 		EC37CC7D15E41341007D7C29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37CC7C15E41341007D7C29 /* AppDelegate.m */; };
 		EC37CC8015E41341007D7C29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37CC7F15E41341007D7C29 /* ViewController.m */; };
 		EC37CC8315E41341007D7C29 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC37CC8115E41341007D7C29 /* ViewController.xib */; };
+		EC3BB44C15E44BF400E76603 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3BB40E15E4299100E76603 /* icon.png */; };
+		EC3BB44E15E44BFA00E76603 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3BB44D15E44BFA00E76603 /* Default.png */; };
+		EC3BB44F15E4612F00E76603 /* PopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECA552C515E421EC00E43B30 /* PopupViewController.xib */; };
+		EC3BB45015E4613A00E76603 /* PopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA552C215E421EC00E43B30 /* PopupView.m */; };
+		EC3BB45115E4613A00E76603 /* PopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA552C415E421EC00E43B30 /* PopupViewController.m */; };
+		EC3BB45315E466D900E76603 /* popupCloseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3BB45215E466D900E76603 /* popupCloseButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +37,14 @@
 		EC37CC7E15E41341007D7C29 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EC37CC7F15E41341007D7C29 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EC37CC8215E41341007D7C29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		EC3BB40E15E4299100E76603 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		EC3BB44D15E44BFA00E76603 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		EC3BB45215E466D900E76603 /* popupCloseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = popupCloseButton.png; path = ../../../Desktop/popupCloseButton.png; sourceTree = "<group>"; };
+		ECA552C115E421EC00E43B30 /* PopupView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopupView.h; sourceTree = "<group>"; };
+		ECA552C215E421EC00E43B30 /* PopupView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopupView.m; sourceTree = "<group>"; };
+		ECA552C315E421EC00E43B30 /* PopupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopupViewController.h; sourceTree = "<group>"; };
+		ECA552C415E421EC00E43B30 /* PopupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopupViewController.m; sourceTree = "<group>"; };
+		ECA552C515E421EC00E43B30 /* PopupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopupViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +96,11 @@
 				EC37CC7E15E41341007D7C29 /* ViewController.h */,
 				EC37CC7F15E41341007D7C29 /* ViewController.m */,
 				EC37CC8115E41341007D7C29 /* ViewController.xib */,
+				ECA552C115E421EC00E43B30 /* PopupView.h */,
+				ECA552C215E421EC00E43B30 /* PopupView.m */,
+				ECA552C315E421EC00E43B30 /* PopupViewController.h */,
+				ECA552C415E421EC00E43B30 /* PopupViewController.m */,
+				ECA552C515E421EC00E43B30 /* PopupViewController.xib */,
 				EC37CC7315E41341007D7C29 /* Supporting Files */,
 			);
 			path = ModalPopup;
@@ -90,6 +109,9 @@
 		EC37CC7315E41341007D7C29 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EC3BB44D15E44BFA00E76603 /* Default.png */,
+				EC3BB40E15E4299100E76603 /* icon.png */,
+				EC3BB45215E466D900E76603 /* popupCloseButton.png */,
 				EC37CC7415E41341007D7C29 /* ModalPopup-Info.plist */,
 				EC37CC7515E41341007D7C29 /* InfoPlist.strings */,
 				EC37CC7815E41341007D7C29 /* main.m */,
@@ -149,8 +171,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC3BB44F15E4612F00E76603 /* PopupViewController.xib in Resources */,
 				EC37CC7715E41341007D7C29 /* InfoPlist.strings in Resources */,
 				EC37CC8315E41341007D7C29 /* ViewController.xib in Resources */,
+				EC3BB44C15E44BF400E76603 /* icon.png in Resources */,
+				EC3BB44E15E44BFA00E76603 /* Default.png in Resources */,
+				EC3BB45315E466D900E76603 /* popupCloseButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +187,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC3BB45015E4613A00E76603 /* PopupView.m in Sources */,
+				EC3BB45115E4613A00E76603 /* PopupViewController.m in Sources */,
 				EC37CC7915E41341007D7C29 /* main.m in Sources */,
 				EC37CC7D15E41341007D7C29 /* AppDelegate.m in Sources */,
 				EC37CC8015E41341007D7C29 /* ViewController.m in Sources */,
@@ -275,6 +303,7 @@
 				EC37CC8815E41341007D7C29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
